@@ -1,0 +1,83 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language : pt"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 24412118601,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que eu acesso o link do liferay forms",
+            "match": {
+              "location": "LiferaySteps.queEuAcessoOLinkDoLiferayForms()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10528771499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LiferaySteps.inicializa()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Validar texto party rock",
+        "description": "",
+        "id": "liferay-forms;validar-texto-party-rock",
+        "after": [
+          {
+            "result": {
+              "duration": 878516700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LiferaySteps.finaliza()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 74535501,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "eu vejo o texto party rock na tela",
+            "match": {
+              "location": "LiferaySteps.euVejoOTextoPartyRockNaTela()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Liferay Forms",
+    "description": "Como um usuário do sistema\nEu quero preencher o formulário da Liferay forms\nPara que possa cadastrar minhas informações no formulário",
+    "id": "liferay-forms",
+    "keyword": "Funcionalidade",
+    "uri": "liferayform.feature"
+  }
+]
