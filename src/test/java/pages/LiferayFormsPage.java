@@ -21,8 +21,8 @@ public class LiferayFormsPage extends BasePage {
 	 * Valida o texto party rock.
 	 * 
 	 */
-	public void validarPartyRockTexto() {
-		validarTextoTela(By.xpath(FormsMap.textoPartyRock()));
+	public boolean validarPartyRockTexto() {
+		return (validarTextoTela(By.xpath(FormsMap.textoPartyRock())));
 	}
 
 	/**
@@ -107,8 +107,8 @@ public class LiferayFormsPage extends BasePage {
 	 * campo(s)
 	 * 
 	 */
-	public void validarFormNaoEnviado() {
-		validarTextoNaoExibidoNaTela(By.xpath(FormsMap.mensagemCadastroSucesso()));
+	public boolean validarFormNaoEnviado() {
+		return (validarTextoNaoExibidoNaTela(By.xpath(FormsMap.mensagemCadastroSucesso())));
 	}
 
 }

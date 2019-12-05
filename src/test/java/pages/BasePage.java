@@ -1,8 +1,6 @@
 package pages;
 
-import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -40,7 +38,7 @@ public class BasePage {
 
 			// Obs: Espera explicita necessária, mais detalhes no relatório
 			System.out.println("Clicando no botão");
-			Thread.sleep(3000);
+			esperaForcada(3);
 
 			element.click();
 			System.out.println("Botão clicado");
@@ -64,14 +62,8 @@ public class BasePage {
 	 * 
 	 * @param locator Locator do elemento que se deseja verificar
 	 */
-	public void validarTextoTela(By locator) {
-		try {
-			if ((driver.findElements(locator).size() > 0) && (driver.findElement(locator).isDisplayed()))
-				System.out.println("Elemento encontrado");
-		} catch (NoSuchElementException e) {
-			System.out.println("Elemento não encontrado");
-			System.out.println(e.getMessage());
-		}
+	public boolean validarTextoTela(By locator) {
+		return ((driver.findElements(locator).size() > 0) && (driver.findElement(locator).isDisplayed()));
 	}
 
 	/**
@@ -79,12 +71,20 @@ public class BasePage {
 	 * 
 	 * @param locator Locator do elemento que se deseja verificar
 	 */
-	public void validarTextoNaoExibidoNaTela(By locator) {
+	public boolean validarTextoNaoExibidoNaTela(By locator) {
+		return (driver.findElements(locator).size() == 0);
+	}
+
+	/**
+	 * Faz uma experada forcada em algum caso que isso seja realmente necessário
+	 * 
+	 * @param tempo Tempo em segundos
+	 */
+	public void esperaForcada(int tempo) {
 		try {
-			Assert.assertTrue(driver.findElements(locator).size() == 0);
+			Thread.sleep(tempo*1000);
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
-
 		}
 	}
 

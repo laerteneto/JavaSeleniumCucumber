@@ -1,5 +1,7 @@
 package steps;
 
+import static org.junit.Assert.assertTrue;
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -46,7 +48,7 @@ public class LiferaySteps {
 
 	@Então("^eu vejo o texto party rock na tela$")
 	public void euVejoOTextoPartyRockNaTela() throws Throwable {
-		liferayFormsPage.validarPartyRockTexto();
+		assertTrue(liferayFormsPage.validarPartyRockTexto());
 	}
 
 	@Quando("^eu preencho o campo Qual é o seu nome com o valor \"([^\"]*)\"$")
@@ -74,10 +76,10 @@ public class LiferaySteps {
 	public void euVejoNaTelaAMensagemDeSucesso() throws Throwable {
 		liferayFormsPage.validarMensagemFormularioEnviadoSucesso();
 	}
-	
+
 	@Então("^eu NÃO vejo na tela a mensagem de sucesso$")
 	public void euNaoVejoNaTelaAMensagemDeSucesso() throws Throwable {
-		liferayFormsPage.validarFormNaoEnviado();
+		assertTrue(liferayFormsPage.validarFormNaoEnviado());
 	}
 
 	@Então("^eu vejo na tela um erro referente a obrigatoriedade do campo \"([^\"]*)\"$")

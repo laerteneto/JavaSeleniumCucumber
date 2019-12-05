@@ -17,7 +17,7 @@
         "steps": [
           {
             "result": {
-              "duration": 24412118601,
+              "duration": 77358458600,
               "status": "passed"
             },
             "line": 8,
@@ -33,7 +33,7 @@
         "before": [
           {
             "result": {
-              "duration": 10528771499,
+              "duration": 10223159500,
               "status": "passed"
             },
             "match": {
@@ -48,7 +48,7 @@
         "after": [
           {
             "result": {
-              "duration": 878516700,
+              "duration": 867888200,
               "status": "passed"
             },
             "match": {
@@ -61,7 +61,7 @@
         "steps": [
           {
             "result": {
-              "duration": 74535501,
+              "duration": 70055800,
               "status": "passed"
             },
             "line": 11,
@@ -70,6 +70,529 @@
               "location": "LiferaySteps.euVejoOTextoPartyRockNaTela()"
             },
             "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 18857794200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que eu acesso o link do liferay forms",
+            "match": {
+              "location": "LiferaySteps.queEuAcessoOLinkDoLiferayForms()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9297721500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LiferaySteps.inicializa()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validar campos preenchidos corretamente",
+        "description": "",
+        "id": "liferay-forms;validar-campos-preenchidos-corretamente",
+        "after": [
+          {
+            "result": {
+              "duration": 799387500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LiferaySteps.finaliza()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 194300900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "eu preencho o campo Qual é o seu nome com o valor \"Laerte Mello\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laerte Mello",
+                  "offset": 51
+                }
+              ],
+              "location": "LiferaySteps.euPreenchoOCampoQualÉOSeuNomeComOValor(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 150157400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "eu preencho o campo Data de Nascimento com o valor \"01/01/1992\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "01/01/1992",
+                  "offset": 52
+                }
+              ],
+              "location": "LiferaySteps.euPreenchoOCampoDataDeNascimentoComOValor(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 168235300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "eu preencho o campo Porque você ingressou na área de testes com o valor \"Blablabla\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blablabla",
+                  "offset": 73
+                }
+              ],
+              "location": "LiferaySteps.euPreenchoOCampoPorqueVocêIngressouNaÁreaDeTestesComOValor(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 3140823400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "eu clico no botão submit",
+            "match": {
+              "location": "LiferaySteps.euClicoNoBotãoSubmit()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 963970300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "eu vejo na tela a mensagem de sucesso",
+            "match": {
+              "location": "LiferaySteps.euVejoNaTelaAMensagemDeSucesso()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 24385706700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que eu acesso o link do liferay forms",
+            "match": {
+              "location": "LiferaySteps.queEuAcessoOLinkDoLiferayForms()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9271405400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LiferaySteps.inicializa()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Validar obrigatoriedade dos campos Data de Nascimento e Porque você...",
+        "description": "",
+        "id": "liferay-forms;validar-obrigatoriedade-dos-campos-data-de-nascimento-e-porque-você...",
+        "after": [
+          {
+            "result": {
+              "duration": 773835500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LiferaySteps.finaliza()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 176862500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "eu preencho o campo Qual é o seu nome com o valor \"Laerte Mello\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laerte Mello",
+                  "offset": 51
+                }
+              ],
+              "location": "LiferaySteps.euPreenchoOCampoQualÉOSeuNomeComOValor(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3133931800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "eu clico no botão submit",
+            "match": {
+              "location": "LiferaySteps.euClicoNoBotãoSubmit()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 30018819800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "eu NÃO vejo na tela a mensagem de sucesso",
+            "match": {
+              "location": "LiferaySteps.euNaoVejoNaTelaAMensagemDeSucesso()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 30134400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "eu vejo na tela um erro referente a obrigatoriedade do campo \"Qual é a data do seu nascimento?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qual é a data do seu nascimento?",
+                  "offset": 62
+                }
+              ],
+              "location": "LiferaySteps.euVejoNaTelaUmErroReferenteAObrigatoriedadeDoCampo(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 30803500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "eu vejo na tela um erro referente a obrigatoriedade do campo \"Porque você ingressou na área de testes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Porque você ingressou na área de testes",
+                  "offset": 62
+                }
+              ],
+              "location": "LiferaySteps.euVejoNaTelaUmErroReferenteAObrigatoriedadeDoCampo(String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 76234817700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que eu acesso o link do liferay forms",
+            "match": {
+              "location": "LiferaySteps.queEuAcessoOLinkDoLiferayForms()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9288707000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LiferaySteps.inicializa()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Validar obrigatoriedade dos campo Nome e Porque você...",
+        "description": "",
+        "id": "liferay-forms;validar-obrigatoriedade-dos-campo-nome-e-porque-você...",
+        "after": [
+          {
+            "result": {
+              "duration": 816721300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LiferaySteps.finaliza()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 167494200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "eu preencho o campo Data de Nascimento com o valor \"01/01/1992\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "01/01/1992",
+                  "offset": 52
+                }
+              ],
+              "location": "LiferaySteps.euPreenchoOCampoDataDeNascimentoComOValor(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3140218200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "eu clico no botão submit",
+            "match": {
+              "location": "LiferaySteps.euClicoNoBotãoSubmit()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1045289700,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.LiferaySteps.euNaoVejoNaTelaAMensagemDeSucesso(LiferaySteps.java:82)\r\n\tat ✽.Então eu NÃO vejo na tela a mensagem de sucesso(liferayform.feature:30)\r\n",
+              "status": "failed"
+            },
+            "line": 30,
+            "name": "eu NÃO vejo na tela a mensagem de sucesso",
+            "match": {
+              "location": "LiferaySteps.euNaoVejoNaTelaAMensagemDeSucesso()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "eu vejo na tela um erro referente a obrigatoriedade do campo \"Qual é seu nome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qual é seu nome",
+                  "offset": 62
+                }
+              ],
+              "location": "LiferaySteps.euVejoNaTelaUmErroReferenteAObrigatoriedadeDoCampo(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "eu vejo na tela um erro referente a obrigatoriedade do campo \"Porque você ingressou na área de testes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Porque você ingressou na área de testes",
+                  "offset": 62
+                }
+              ],
+              "location": "LiferaySteps.euVejoNaTelaUmErroReferenteAObrigatoriedadeDoCampo(String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 93419854400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que eu acesso o link do liferay forms",
+            "match": {
+              "location": "LiferaySteps.queEuAcessoOLinkDoLiferayForms()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9270117200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LiferaySteps.inicializa()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Validar obrigatoriedade dos campos Nome e Data de Nascimento",
+        "description": "",
+        "id": "liferay-forms;validar-obrigatoriedade-dos-campos-nome-e-data-de-nascimento",
+        "after": [
+          {
+            "result": {
+              "duration": 793579700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LiferaySteps.finaliza()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 160320400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "eu preencho o campo Porque você ingressou na área de testes com o valor \"Blablabla\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Blablabla",
+                  "offset": 73
+                }
+              ],
+              "location": "LiferaySteps.euPreenchoOCampoPorqueVocêIngressouNaÁreaDeTestesComOValor(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3122536800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "eu clico no botão submit",
+            "match": {
+              "location": "LiferaySteps.euClicoNoBotãoSubmit()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 30024664600,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "eu NÃO vejo na tela a mensagem de sucesso",
+            "match": {
+              "location": "LiferaySteps.euNaoVejoNaTelaAMensagemDeSucesso()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 33016400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "eu vejo na tela um erro referente a obrigatoriedade do campo \"Qual é seu nome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qual é seu nome",
+                  "offset": 62
+                }
+              ],
+              "location": "LiferaySteps.euVejoNaTelaUmErroReferenteAObrigatoriedadeDoCampo(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 30908900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "eu vejo na tela um erro referente a obrigatoriedade do campo \"Qual é a data do seu nascimento?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qual é a data do seu nascimento?",
+                  "offset": 62
+                }
+              ],
+              "location": "LiferaySteps.euVejoNaTelaUmErroReferenteAObrigatoriedadeDoCampo(String)"
+            },
+            "keyword": "E "
           }
         ]
       }
