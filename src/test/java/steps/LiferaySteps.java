@@ -84,6 +84,6 @@ public class LiferaySteps {
 
 	@Então("^eu vejo na tela um erro referente a obrigatoriedade do campo \"([^\"]*)\"$")
 	public void euVejoNaTelaUmErroReferenteAObrigatoriedadeDoCampo(String campo) throws Throwable {
-		liferayFormsPage.validarCampoObrigatorioNoFormulario(campo);
+		assertTrue(liferayFormsPage.validarCampoObrigatorioNoFormulario(campo));
 	}
 }

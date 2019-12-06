@@ -86,18 +86,17 @@ public class LiferayFormsPage extends BasePage {
 	 * obrigatório é exibida logo abaixo do campo não preenchido
 	 * 
 	 * @param labelCampo nome da label do campo que se deseja validar
+	 * @return 
 	 * 
 	 */
-	public void validarCampoObrigatorioNoFormulario(String labelCampo) {
-		WebElement element = driver.findElement(By.xpath(FormsMap.mensagemCampoObrigatorio(labelCampo)));
+	public boolean validarCampoObrigatorioNoFormulario(String labelCampo) {
 		try {
-			element.isDisplayed();
-			System.out.println(
-					"Mensagem de campo obrigatório para a label " + labelCampo + " foi encontrada com sucesso");
+			WebElement element = driver.findElement(By.xpath(FormsMap.mensagemCampoObrigatorio(labelCampo)));
+			return element.isDisplayed();
 		} catch (Exception e) {
-			System.out.println("O Elemento náo está visivel");
 			System.out.println(e.getMessage());
 		}
+		return false;
 	}
 
 	/**

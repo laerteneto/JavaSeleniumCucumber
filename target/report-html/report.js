@@ -13,7 +13,7 @@ formatter.feature({
   "keyword": "Funcionalidade"
 });
 formatter.before({
-  "duration": 10223159500,
+  "duration": 10243071300,
   "status": "passed"
 });
 formatter.background({
@@ -32,7 +32,7 @@ formatter.match({
   "location": "LiferaySteps.queEuAcessoOLinkDoLiferayForms()"
 });
 formatter.result({
-  "duration": 77358458600,
+  "duration": 30402247400,
   "status": "passed"
 });
 formatter.scenario({
@@ -52,15 +52,15 @@ formatter.match({
   "location": "LiferaySteps.euVejoOTextoPartyRockNaTela()"
 });
 formatter.result({
-  "duration": 70055800,
+  "duration": 68563000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 867888200,
+  "duration": 852702600,
   "status": "passed"
 });
 formatter.before({
-  "duration": 9297721500,
+  "duration": 9156393500,
   "status": "passed"
 });
 formatter.background({
@@ -79,7 +79,7 @@ formatter.match({
   "location": "LiferaySteps.queEuAcessoOLinkDoLiferayForms()"
 });
 formatter.result({
-  "duration": 18857794200,
+  "duration": 22069473800,
   "status": "passed"
 });
 formatter.scenario({
@@ -125,7 +125,7 @@ formatter.match({
   "location": "LiferaySteps.euPreenchoOCampoQualÉOSeuNomeComOValor(String)"
 });
 formatter.result({
-  "duration": 194300900,
+  "duration": 193939900,
   "status": "passed"
 });
 formatter.match({
@@ -138,7 +138,7 @@ formatter.match({
   "location": "LiferaySteps.euPreenchoOCampoDataDeNascimentoComOValor(String)"
 });
 formatter.result({
-  "duration": 150157400,
+  "duration": 137328200,
   "status": "passed"
 });
 formatter.match({
@@ -151,29 +151,29 @@ formatter.match({
   "location": "LiferaySteps.euPreenchoOCampoPorqueVocêIngressouNaÁreaDeTestesComOValor(String)"
 });
 formatter.result({
-  "duration": 168235300,
+  "duration": 166927300,
   "status": "passed"
 });
 formatter.match({
   "location": "LiferaySteps.euClicoNoBotãoSubmit()"
 });
 formatter.result({
-  "duration": 3140823400,
+  "duration": 3124001000,
   "status": "passed"
 });
 formatter.match({
   "location": "LiferaySteps.euVejoNaTelaAMensagemDeSucesso()"
 });
 formatter.result({
-  "duration": 963970300,
+  "duration": 1043935900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 799387500,
+  "duration": 719495900,
   "status": "passed"
 });
 formatter.before({
-  "duration": 9271405400,
+  "duration": 9221029900,
   "status": "passed"
 });
 formatter.background({
@@ -192,7 +192,7 @@ formatter.match({
   "location": "LiferaySteps.queEuAcessoOLinkDoLiferayForms()"
 });
 formatter.result({
-  "duration": 24385706700,
+  "duration": 18739709200,
   "status": "passed"
 });
 formatter.scenario({
@@ -238,21 +238,21 @@ formatter.match({
   "location": "LiferaySteps.euPreenchoOCampoQualÉOSeuNomeComOValor(String)"
 });
 formatter.result({
-  "duration": 176862500,
+  "duration": 180235000,
   "status": "passed"
 });
 formatter.match({
   "location": "LiferaySteps.euClicoNoBotãoSubmit()"
 });
 formatter.result({
-  "duration": 3133931800,
+  "duration": 3126728700,
   "status": "passed"
 });
 formatter.match({
   "location": "LiferaySteps.euNaoVejoNaTelaAMensagemDeSucesso()"
 });
 formatter.result({
-  "duration": 30018819800,
+  "duration": 30013943900,
   "status": "passed"
 });
 formatter.match({
@@ -265,7 +265,7 @@ formatter.match({
   "location": "LiferaySteps.euVejoNaTelaUmErroReferenteAObrigatoriedadeDoCampo(String)"
 });
 formatter.result({
-  "duration": 30134400,
+  "duration": 30989600,
   "status": "passed"
 });
 formatter.match({
@@ -278,15 +278,15 @@ formatter.match({
   "location": "LiferaySteps.euVejoNaTelaUmErroReferenteAObrigatoriedadeDoCampo(String)"
 });
 formatter.result({
-  "duration": 30803500,
+  "duration": 30093100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 773835500,
+  "duration": 709432700,
   "status": "passed"
 });
 formatter.before({
-  "duration": 9288707000,
+  "duration": 9159012900,
   "status": "passed"
 });
 formatter.background({
@@ -305,7 +305,7 @@ formatter.match({
   "location": "LiferaySteps.queEuAcessoOLinkDoLiferayForms()"
 });
 formatter.result({
-  "duration": 76234817700,
+  "duration": 20256221900,
   "status": "passed"
 });
 formatter.scenario({
@@ -351,21 +351,21 @@ formatter.match({
   "location": "LiferaySteps.euPreenchoOCampoDataDeNascimentoComOValor(String)"
 });
 formatter.result({
-  "duration": 167494200,
+  "duration": 148758900,
   "status": "passed"
 });
 formatter.match({
   "location": "LiferaySteps.euClicoNoBotãoSubmit()"
 });
 formatter.result({
-  "duration": 3140218200,
+  "duration": 3138323000,
   "status": "passed"
 });
 formatter.match({
   "location": "LiferaySteps.euNaoVejoNaTelaAMensagemDeSucesso()"
 });
 formatter.result({
-  "duration": 1045289700,
+  "duration": 982379000,
   "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.LiferaySteps.euNaoVejoNaTelaAMensagemDeSucesso(LiferaySteps.java:82)\r\n\tat ✽.Então eu NÃO vejo na tela a mensagem de sucesso(liferayform.feature:30)\r\n",
   "status": "failed"
 });
@@ -394,11 +394,11 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 816721300,
+  "duration": 710419100,
   "status": "passed"
 });
 formatter.before({
-  "duration": 9270117200,
+  "duration": 9157666500,
   "status": "passed"
 });
 formatter.background({
@@ -417,7 +417,7 @@ formatter.match({
   "location": "LiferaySteps.queEuAcessoOLinkDoLiferayForms()"
 });
 formatter.result({
-  "duration": 93419854400,
+  "duration": 25681082100,
   "status": "passed"
 });
 formatter.scenario({
@@ -463,21 +463,21 @@ formatter.match({
   "location": "LiferaySteps.euPreenchoOCampoPorqueVocêIngressouNaÁreaDeTestesComOValor(String)"
 });
 formatter.result({
-  "duration": 160320400,
+  "duration": 147086000,
   "status": "passed"
 });
 formatter.match({
   "location": "LiferaySteps.euClicoNoBotãoSubmit()"
 });
 formatter.result({
-  "duration": 3122536800,
+  "duration": 3130652100,
   "status": "passed"
 });
 formatter.match({
   "location": "LiferaySteps.euNaoVejoNaTelaAMensagemDeSucesso()"
 });
 formatter.result({
-  "duration": 30024664600,
+  "duration": 30015233700,
   "status": "passed"
 });
 formatter.match({
@@ -490,7 +490,7 @@ formatter.match({
   "location": "LiferaySteps.euVejoNaTelaUmErroReferenteAObrigatoriedadeDoCampo(String)"
 });
 formatter.result({
-  "duration": 33016400,
+  "duration": 29728400,
   "status": "passed"
 });
 formatter.match({
@@ -503,11 +503,11 @@ formatter.match({
   "location": "LiferaySteps.euVejoNaTelaUmErroReferenteAObrigatoriedadeDoCampo(String)"
 });
 formatter.result({
-  "duration": 30908900,
+  "duration": 28139500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 793579700,
+  "duration": 722479400,
   "status": "passed"
 });
 });

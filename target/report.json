@@ -17,7 +17,7 @@
         "steps": [
           {
             "result": {
-              "duration": 77358458600,
+              "duration": 30402247400,
               "status": "passed"
             },
             "line": 8,
@@ -33,7 +33,7 @@
         "before": [
           {
             "result": {
-              "duration": 10223159500,
+              "duration": 10243071300,
               "status": "passed"
             },
             "match": {
@@ -48,7 +48,7 @@
         "after": [
           {
             "result": {
-              "duration": 867888200,
+              "duration": 852702600,
               "status": "passed"
             },
             "match": {
@@ -61,7 +61,7 @@
         "steps": [
           {
             "result": {
-              "duration": 70055800,
+              "duration": 68563000,
               "status": "passed"
             },
             "line": 11,
@@ -82,7 +82,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18857794200,
+              "duration": 22069473800,
               "status": "passed"
             },
             "line": 8,
@@ -98,7 +98,7 @@
         "before": [
           {
             "result": {
-              "duration": 9297721500,
+              "duration": 9156393500,
               "status": "passed"
             },
             "match": {
@@ -113,7 +113,7 @@
         "after": [
           {
             "result": {
-              "duration": 799387500,
+              "duration": 719495900,
               "status": "passed"
             },
             "match": {
@@ -126,7 +126,7 @@
         "steps": [
           {
             "result": {
-              "duration": 194300900,
+              "duration": 193939900,
               "status": "passed"
             },
             "line": 14,
@@ -144,7 +144,7 @@
           },
           {
             "result": {
-              "duration": 150157400,
+              "duration": 137328200,
               "status": "passed"
             },
             "line": 15,
@@ -162,7 +162,7 @@
           },
           {
             "result": {
-              "duration": 168235300,
+              "duration": 166927300,
               "status": "passed"
             },
             "line": 16,
@@ -180,7 +180,7 @@
           },
           {
             "result": {
-              "duration": 3140823400,
+              "duration": 3124001000,
               "status": "passed"
             },
             "line": 17,
@@ -192,7 +192,7 @@
           },
           {
             "result": {
-              "duration": 963970300,
+              "duration": 1043935900,
               "status": "passed"
             },
             "line": 18,
@@ -213,7 +213,7 @@
         "steps": [
           {
             "result": {
-              "duration": 24385706700,
+              "duration": 18739709200,
               "status": "passed"
             },
             "line": 8,
@@ -229,7 +229,7 @@
         "before": [
           {
             "result": {
-              "duration": 9271405400,
+              "duration": 9221029900,
               "status": "passed"
             },
             "match": {
@@ -244,7 +244,7 @@
         "after": [
           {
             "result": {
-              "duration": 773835500,
+              "duration": 709432700,
               "status": "passed"
             },
             "match": {
@@ -257,7 +257,7 @@
         "steps": [
           {
             "result": {
-              "duration": 176862500,
+              "duration": 180235000,
               "status": "passed"
             },
             "line": 21,
@@ -275,7 +275,7 @@
           },
           {
             "result": {
-              "duration": 3133931800,
+              "duration": 3126728700,
               "status": "passed"
             },
             "line": 22,
@@ -287,7 +287,7 @@
           },
           {
             "result": {
-              "duration": 30018819800,
+              "duration": 30013943900,
               "status": "passed"
             },
             "line": 23,
@@ -299,7 +299,7 @@
           },
           {
             "result": {
-              "duration": 30134400,
+              "duration": 30989600,
               "status": "passed"
             },
             "line": 24,
@@ -317,7 +317,7 @@
           },
           {
             "result": {
-              "duration": 30803500,
+              "duration": 30093100,
               "status": "passed"
             },
             "line": 25,
@@ -344,7 +344,7 @@
         "steps": [
           {
             "result": {
-              "duration": 76234817700,
+              "duration": 20256221900,
               "status": "passed"
             },
             "line": 8,
@@ -360,7 +360,7 @@
         "before": [
           {
             "result": {
-              "duration": 9288707000,
+              "duration": 9159012900,
               "status": "passed"
             },
             "match": {
@@ -375,7 +375,7 @@
         "after": [
           {
             "result": {
-              "duration": 816721300,
+              "duration": 710419100,
               "status": "passed"
             },
             "match": {
@@ -388,7 +388,7 @@
         "steps": [
           {
             "result": {
-              "duration": 167494200,
+              "duration": 148758900,
               "status": "passed"
             },
             "line": 28,
@@ -406,7 +406,7 @@
           },
           {
             "result": {
-              "duration": 3140218200,
+              "duration": 3138323000,
               "status": "passed"
             },
             "line": 29,
@@ -418,7 +418,7 @@
           },
           {
             "result": {
-              "duration": 1045289700,
+              "duration": 982379000,
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat steps.LiferaySteps.euNaoVejoNaTelaAMensagemDeSucesso(LiferaySteps.java:82)\r\n\tat ✽.Então eu NÃO vejo na tela a mensagem de sucesso(liferayform.feature:30)\r\n",
               "status": "failed"
             },
@@ -474,7 +474,7 @@
         "steps": [
           {
             "result": {
-              "duration": 93419854400,
+              "duration": 25681082100,
               "status": "passed"
             },
             "line": 8,
@@ -490,7 +490,7 @@
         "before": [
           {
             "result": {
-              "duration": 9270117200,
+              "duration": 9157666500,
               "status": "passed"
             },
             "match": {
@@ -505,7 +505,7 @@
         "after": [
           {
             "result": {
-              "duration": 793579700,
+              "duration": 722479400,
               "status": "passed"
             },
             "match": {
@@ -518,7 +518,7 @@
         "steps": [
           {
             "result": {
-              "duration": 160320400,
+              "duration": 147086000,
               "status": "passed"
             },
             "line": 36,
@@ -536,7 +536,7 @@
           },
           {
             "result": {
-              "duration": 3122536800,
+              "duration": 3130652100,
               "status": "passed"
             },
             "line": 37,
@@ -548,7 +548,7 @@
           },
           {
             "result": {
-              "duration": 30024664600,
+              "duration": 30015233700,
               "status": "passed"
             },
             "line": 38,
@@ -560,7 +560,7 @@
           },
           {
             "result": {
-              "duration": 33016400,
+              "duration": 29728400,
               "status": "passed"
             },
             "line": 39,
@@ -578,7 +578,7 @@
           },
           {
             "result": {
-              "duration": 30908900,
+              "duration": 28139500,
               "status": "passed"
             },
             "line": 40,
